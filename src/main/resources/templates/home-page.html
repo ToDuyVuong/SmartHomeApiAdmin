@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Home Page</title>
+</head>
+<body>
+<h1>Welcome to the Home Page</h1>
+<button>
+<a th:href="@{/category/list}" class="btn btn-primary">View Categories</a>
+</button>
+
+<button>
+  <a th:href="@{/product/list}" class="btn btn-primary">View Product</a>
+</button>
+
+<button>
+  <a th:href="@{/order/list}" class="btn btn-primary">View Order</a>
+</button>
+
+</body>
+</html>
